@@ -1,7 +1,8 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 body {
-  background-color: blue;
+  padding-top: 40px;
+  background-image: url(https://img.fabricgateway.com/66/66b2b5ad5874d6f927380a7c0ed63642.jpeg);
 }
 
 .flipper {
@@ -10,6 +11,29 @@ body {
   -o-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
+}
+
+.card-header,
+.card-footer {
+  font-size: 50px;
+  border: none;
+}
+
+.card {
+  height: 382px;
+  border-radius: 25px;
+}
+
+.card-body {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+.shadow-boxing {
+  box-shadow: 2px 2px 2px #000000d6;
 }
 
 /* 
